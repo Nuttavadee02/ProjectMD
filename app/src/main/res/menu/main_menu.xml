@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat_icon"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/theme_icon"
+            android:title="Theme" />
+        <item
+            android:id="@+id/nav_req"
+            android:icon="@drawable/req_icon"
+            android:title="TopHit" />
+    </group>
+
+        <item
+            android:title="communicate">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_help"
+                        android:title="Help"
+                        android:icon="@drawable/help"/>
+                </group>
+            </menu>
+        </item>
+</menu>
